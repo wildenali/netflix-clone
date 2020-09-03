@@ -33,3 +33,7 @@
 .row__posterLarge:hover {
   transform: scale(1.1);
 }
+
+.tidakAdaVideo {
+  background-color: orange;
+}
