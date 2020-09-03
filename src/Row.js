@@ -22,7 +22,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
   console.table(movies);
 
   return (
-    <div>
+    <div className="row">
       {/* title */}
       <h2>{title}</h2>
 
