@@ -17,6 +17,7 @@ function Row({ title, fetchUrl }) {
   }, [fetchUrl]); // if [], run once whe the row loads, and dont run again
 
   console.log(movies);
+  console.table(movies);
 
   return (
     <div>
@@ -24,6 +25,14 @@ function Row({ title, fetchUrl }) {
       <h2>{title}</h2>
 
       {/* Container -> posters */}
+      <div className="row__posters">
+        {/* several row_poster(s) */}
+        {
+          movies.map(movie => (
+            <img src={movie.poster_path} alt={movie.name} />
+          ))
+        }
+      </div>
     </div>
   )
 }
