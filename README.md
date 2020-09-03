@@ -29,3 +29,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 13. Get the, and save the API Key
 ##### API Key (v3 auth)
 `728b1c73524e7e482910e452b355872b`
+
+# Install Axios
+`$ npm i axios`
